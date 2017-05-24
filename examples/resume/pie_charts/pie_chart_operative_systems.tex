@@ -1,0 +1,30 @@
+%Microsoft Windows family (namely 2003-current Server, 3.1.1-current), Linux (namely Ubuntu, Mint Cinnamon, and Kali), Android and iOS
+
+\documentclass[tikz,border=2mm]{standalone}
+
+\begin{document}
+\begin{tikzpicture}[font=\sffamily\bfseries\large, 
+     text=white, 
+     border/.style={line width=14mm}]
+\foreach \angle/\col [remember=\angle as \last (initially 0)] in 
+    {360/orange!100!black, 315/orange!90!black, 270/orange!80!black, 225/orange!70!black, 180/orange!60!black, 120/orange!50!black, 60/orange!40!black}{    
+		\draw[\col, border] (\last:2cm) 
+             arc[start angle=\last, end angle=\angle, radius=2cm];
+		\draw[white, line width=0.5mm] (\last:1.3)--++(\last:1.4);
+}
+\node[text width=1.5cm, align=center, font=\sffamily\bfseries\normalsize, draw, circle, minimum width=2.5cm, white, fill=orange!20!black] {Operative Systems (usage)};
+\node[text width=1.3cm, align=center, font=\sffamily\bfseries\footnotesize] at (30:2cm) 
+    {Mint Cinnamon 25\%};
+\node[text width=1.1cm, align=center, font=\sffamily\bfseries\footnotesize] at (90:2cm) {Ubuntu 15\%};
+\node[text width=1.1cm, align=center, font=\sffamily\bfseries\footnotesize] at (148:2cm) 
+    {Android 25\%};
+\node[text width=1.2cm, align=center, font=\sffamily\bfseries\footnotesize] at (202:2cm) 
+    %{MS Windows 3.1.1 to current};
+    {MS Windows 25\%};
+\node[text width=1.2cm, align=center, font=\sffamily\bfseries\footnotesize] at (245:2cm) 
+    %{MS Windows 2003 Server to current};    
+    {MS Windows Server 2\%};    
+\node[text width=1.1cm, align=center, font=\sffamily\bfseries\footnotesize] at (295:2cm) {Kali 5\%};
+\node[text width=1.1cm, align=center, font=\sffamily\bfseries\footnotesize] at (340:2cm) {iOS 3\%};
+\end{tikzpicture}
+\end{document}
