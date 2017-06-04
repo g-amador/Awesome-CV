@@ -20,7 +20,7 @@ You can see the [PDF](https://raw.githubusercontent.com/g-amador/Awesome-CV/mast
 
 | Page. 1 | Page. 2 |
 |:---:|:---:|
-| [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-0.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume.pdf)  | [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-1.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume.pdf) |
+| [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-0.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-0.png)  | [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-1.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-1.png) |
 
 ####Cover letter
 
@@ -28,7 +28,7 @@ You can see the [PDF](https://raw.githubusercontent.com/g-amador/Awesome-CV/mast
 
 | With Photo | Without Photo |
 |:---:|:---:|
-| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter-0.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter-1.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter.pdf) |
+| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter-0.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter-0.png)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter-1.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter-1.png) |
 
 ## <a name="how-to-use">How to Use
 
