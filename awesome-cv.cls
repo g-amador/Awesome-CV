@@ -167,6 +167,8 @@
 % Brand colors - https://brandcolors.net/
 \definecolor{bitbucketcolor}{HTML}{0077B5}
 \definecolor{githubcolor}{HTML}{6E5494}
+\definecolor{orcidcolor}{HTML}{A6CE39}
+\definecolor{researchgatecolor}{HTML}{00ccbb}
 \definecolor{gmailcolor}{HTML}{DD4B39}
 \definecolor{linkedincolor}{HTML}{0077B5}
 \definecolor{skypecolor}{HTML}{00AFF0}
@@ -390,9 +392,13 @@
 %       would be \stackoverflow{123456}{sam-smith}
 \newcommand*{\stackoverflow}[2]{\def\@stackoverflowid{#1}\def\@stackoverflowname{#2}}
 
-%% Defines writer's ResearchGate (optional)
-%% Usage: \researchgate{<ResearchGate-nick>}
-%\newcommand*{\researchgate}[1]{\def\@researchgate{#1}}
+% Defines writer's ResearchGate (optional)
+% Usage: \researchgate{<ResearchGate-nick>}
+\newcommand*{\researchgate}[1]{\def\@researchgate{#1}}
+
+% Defines writer's orcid (optional)
+% Usage: \orcid{<orcid-code>}
+\newcommand*{\orcid}[1]{\def\@orcid{#1}}
 
 % Defines writer's linked-in (optional)
 % Usage: \linkedin{<linked-in-nick>}
@@ -550,8 +556,7 @@
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{http://\@homepage}{\faHome\acvHeaderIconSep\@homepage}%          
-          %\href{https://\@homepage}{\faHome\acvHeaderIconSep ResearchGate}%
+          \href{http://\@homepage}{\faHome\acvHeaderIconSep\@homepage}%     
         }%
       \ifthenelse{\isundefined{\@bitbucket}}%
         {}%
@@ -564,7 +569,7 @@
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
           \href{https://github.com/\@github}{{\color{githubcolor}\faGithubSquare}\acvHeaderIconSep\@github}%
-        }%
+        }%      
       \ifthenelse{\isundefined{\@gitlab}}%
         {}%
         {%
@@ -577,12 +582,18 @@
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
           \href{https://stackoverflow.com/users/\@stackoverflowid}{\faStackOverflow\acvHeaderIconSep\@stackoverflowname}%
         }%
-%      \ifthenelse{\isundefined{\@researchgate}}%		
-%        {}%
-%        {%
-%          \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-%          \href{https://www.researchgate.net/profile/\@researchgate}{\faResearchGateSquare\acvHeaderIconSep\@researchgate}%
-%        }%        
+      \ifthenelse{\isundefined{\@orcid}}%
+        {}%
+        {%
+          \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
+          \href{https://orcid.org//\@orcid}{{\color{orcidcolor}\faOrcid}\acvHeaderIconSep\@orcid}%
+        }%
+      \ifthenelse{\isundefined{\@researchgate}}%		
+        {}%
+        {%
+          \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
+          \href{https://www.researchgate.net/profile/\@researchgate}{\faResearchGate\acvHeaderIconSep\@researchgate}%
+        }%        
       \ifthenelse{\isundefined{\@linkedin}}%
         {}%
         {%
