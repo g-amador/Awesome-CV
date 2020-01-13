@@ -177,6 +177,7 @@
 \definecolor{rainbowcolor-orange}{HTML}{FF7F00}
 \definecolor{rainbowcolor-yellow}{HTML}{CCCC00}%{FFFF00}
 \definecolor{rainbowcolor-green}{HTML}{00FF00}
+\definecolor{rainbowcolor-olive}{HTML}{708238}
 \definecolor{rainbowcolor-cyan}{HTML}{00CCCC}%{00FFFF}
 \definecolor{rainbowcolor-blue}{HTML}{3232FF}%{0000FF}
 \definecolor{rainbowcolor-indigo}{HTML}{9400D3}%{4B0082}
@@ -479,7 +480,7 @@
 
 % Others
 \newcommand{\acvSectionTopSkip}{1.0mm} %{3mm}
-\newcommand{\acvSectionContentTopSkip}{0.5mm}%{2.5mm}
+\newcommand{\acvSectionContentTopSkip}{1.5mm}%{2.5mm}
 
 
 %-------------------------------------------------------------------------------
