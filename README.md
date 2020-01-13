@@ -1,7 +1,7 @@
 # Awesome CV [![Example](https://img.shields.io/badge/example-pdf-green.svg)]
 
 
-A modified version of [**Awesome CV**](https://github.com/posquit0/Awesome-CV) for my own Résumé and generic cover letter.
+A modified version of [**Awesome CV**](https://github.com/posquit0/Awesome-CV) for Anastacia CV.
 
 
 ## Table of contents
@@ -14,21 +14,14 @@ A modified version of [**Awesome CV**](https://github.com/posquit0/Awesome-CV) f
 
 ## <a name="preview"></a>Preview
 
-#### Résumé
+#### CV
 
-You can see the [PDF](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume.pdf)
+You can see the [PDF](https://raw.githubusercontent.com/g-amador/Awesome-CV/Anastacia/examples/resume.pdf)
 
-| Page. 1 | Page. 2 | Page. 3 | Page. 4 |
-|:---:|:---:|:---:|:---:|
-| [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-0.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-0.png) | [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-1.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-1.png) | [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-2.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-2.png) | [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-3.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-3.png) |
-
-####Cover letter
-
-You can see the [PDF](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter.pdf)
-
-| With Photo | Without Photo |
+| Page. 1 | Page. 2 |
 |:---:|:---:|
-| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter-0.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter-0.png)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter-1.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter-1.png) |
+| [![CV](https://raw.githubusercontent.com/g-amador/Awesome-CV/Anastacia/examples/resume-0.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/Anastacia/examples/resume-0.png) | [![CV](https://raw.githubusercontent.com/g-amador/Awesome-CV/Anastacia/examples/resume-1.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/Anastacia/examples/resume-1.png) | 
+
 
 ## <a name="how-to-use">How to Use
 
