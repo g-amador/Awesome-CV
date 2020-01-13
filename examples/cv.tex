@@ -1,6 +1,6 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
-% Awesome CV LaTeX Template for CV/Resume
+% Awesome CV LaTeX Template for CV
 %
 % This template has been downloaded from:
 % https://github.com/posquit0/Awesome-CV
@@ -21,7 +21,7 @@
 \documentclass[11pt, a4paper]{awesome-cv}
 
 % Configure page margins with geometry
-\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+\geometry{left=1.5cm, top=1.5cm, right=1.5cm, bottom=1.5cm, footskip=.5cm}
 
 % Specify the location of the included fonts
 \fontdir[fonts/]
@@ -29,7 +29,7 @@
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-red}
+%\colorlet{awesome}{awesome-red}
 % Uncomment if you would like to specify your own color
 % \definecolor{awesome}{HTML}{CA63A8}
 
@@ -51,50 +51,59 @@
 %	PERSONAL INFORMATION
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
-\name{Claud D.}{Park}
-\position{Software Engineer{\enskip\cdotp\enskip}Security Expert}
-\address{246-1002, Gwangmyeongmayrouge Apt. 86, Cheongna lime-ro, Seo-gu, Incheon-si, 404-180, Rep. of KOREA}
+\photo[circle,noedge,left]{profile.png}
+\name{Patricia A.}{Perfeito Matias\vspace{0.1cm}}
+%\position{Software Engineer {\enskip\cdotp\enskip} Lecturer {\enskip\cdotp\enskip} Project Manager}
+\personalinformation{
+\faFlag \acvHeaderIconSep Portuguesa {\enskip\cdotp\enskip} 
+%\faBirthdayCake \acvHeaderIconSep 20/01/1991 {\enskip\cdotp\enskip} 
+\faVenus \acvHeaderIconSep Feminino %{\enskip\cdotp\enskip} 
+\linebreak
+\faHome \acvHeaderIconSep Rua Bento Gonçalves, Lote 39, Quinta do Amassador, 2835-674, Barreiro, Portugal
+}
 
-\mobile{(+82) 10-9030-1843} 
-\email{posquit0.bj@gmail.com}
-\homepage{www.posquit0.com}
-\github{posquit0}
-\linkedin{posquit0}
-% \stackoverflow{SO-id}{SO-name}
-% \twitter{@twit}
-% \skype{skype-id}
-% \reddit{reddit-id}
-% \extrainfo{extra informations}
+\mobile{(+351) 915-306-059} 
+\email{patricia\_-matias@hotmail.com}
+%\homepage{www.posquit0.com}
+%\linkedin{g-amador}
+%\extrainfo{extra informations} 
 
-\quote{``Must be the change that you want to see in the world."}
-
+\quote{"Esperar pelo melhor e preparar-se para o pior: eis a regra." Fernando Pessoa}
+%\quote{"O Homem é do tamanho do seu sonho." Fernando Pessoa}
+%\quote{"Põe quanto és no mínimo que fazes." Fernando Pessoa}
 
 %-------------------------------------------------------------------------------
 \begin{document}
 
 % Print the header with above personal informations
-\makecvheader
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[L]
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
-  {\today}
-  {Claud D. Park~~~·~~~Curriculum Vitae}
+  {}%{\today}
+  {Patrícia A. Perfeito Matias~~~·~~~Curriculum Vitae}
   {\thepage}
 
 
 %-------------------------------------------------------------------------------
-%	CV/RESUME CONTENT
+%	CV CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-\input{cv/education.tex}
+\input{cv/summary.tex}
+\input{cv/research_interests.tex}
 \input{cv/skills.tex}
 \input{cv/experience.tex}
-\input{cv/extracurricular.tex}
-\input{cv/honors.tex}
-\input{cv/presentation.tex}
-\input{cv/writing.tex}
-\input{cv/committees.tex}
+%\input{cv/certifications.tex}
+\input{cv/education.tex}
+\input{cv/languages.tex}
+%\input{cv/additional_information.tex}
+%\input{cv/extracurricular.tex}
+%\input{cv/honors.tex}
+%\input{cv/presentation.tex}
+%\input{cv/writing.tex}
+%\input{cv/committees.tex}
 
 
 %-------------------------------------------------------------------------------
