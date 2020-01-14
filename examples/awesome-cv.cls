@@ -568,8 +568,8 @@
       \ifthenelse{\isundefined{\@github}}%
         {}%
         {%
-          \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://github.com/\@github}{{\color{githubcolor}\faGithubSquare}\acvHeaderIconSep\@github}%
+          \ifbool{isstart}{\setbool{isstart}{false}}{\\}%{\acvHeaderSocialSep}%
+          \href{https://\@github}{{\color{githubcolor}\faGithubSquare}\acvHeaderIconSep\@github}%
         }%      
       \ifthenelse{\isundefined{\@gitlab}}%
         {}%
@@ -599,7 +599,7 @@
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://www.linkedin.com/in/\@linkedin}{{\color{linkedincolor}\faLinkedinSquare}\acvHeaderIconSep\@linkedin}%
+          \href{https://\@linkedin}{{\color{linkedincolor}\faLinkedinSquare}\acvHeaderIconSep\@linkedin}%
         }%
       \ifthenelse{\isundefined{\@twitter}}%
         {}%
