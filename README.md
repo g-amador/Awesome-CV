@@ -20,7 +20,7 @@ You can see the [PDF](https://raw.githubusercontent.com/g-amador/Awesome-CV/Patr
 
 | Page. 1 | Page. 2 |
 |:---:|:---:|
-| [![CV](https://raw.githubusercontent.com/g-amador/Awesome-CV/Patricia/examples/resume-0.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/Patricia/examples/resume-0.png) | [![CV](https://raw.githubusercontent.com/g-amador/Awesome-CV/Patricia/examples/resume-1.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/Patricia/examples/resume-1.png) |
+| [![CV](https://raw.githubusercontent.com/g-amador/Awesome-CV/Patricia/examples/cv-0.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/Patricia/examples/cv-0.png) | [![CV](https://raw.githubusercontent.com/g-amador/Awesome-CV/Patricia/examples/cv-1.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/Patricia/examples/cv-1.png) |
 
 
 ## <a name="how-to-use">How to Use
