@@ -1,7 +1,7 @@
 # Awesome CV [![Example](https://img.shields.io/badge/example-pdf-green.svg)]
 
 
-A modified version of [**Awesome CV**](https://github.com/posquit0/Awesome-CV) for Anastacia CV.
+A modified version of [**Awesome CV**](https://github.com/posquit0/Awesome-CV) for Anastácia CV.
 
 
 ## Table of contents
@@ -20,7 +20,7 @@ You can see the [PDF](https://raw.githubusercontent.com/g-amador/Awesome-CV/Anas
 
 | Page. 1 | Page. 2 |
 |:---:|:---:|
-| [![CV](https://raw.githubusercontent.com/g-amador/Awesome-CV/Anastacia/examples/resume-0.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/Anastacia/examples/resume-0.png) | [![CV](https://raw.githubusercontent.com/g-amador/Awesome-CV/Anastacia/examples/resume-1.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/Anastacia/examples/resume-1.png) | 
+| [![CV](https://raw.githubusercontent.com/g-amador/Awesome-CV/Anastacia/examples/cv-0.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/Anastacia/examples/cv-0.png) | [![CV](https://raw.githubusercontent.com/g-amador/Awesome-CV/Anastacia/examples/cv-1.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/Anastacia/examples/cv-1.png) | 
 
 
 ## <a name="how-to-use">How to Use
