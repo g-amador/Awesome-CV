@@ -16,7 +16,7 @@ A modified version of [**Awesome CV**](https://github.com/posquit0/Awesome-CV) f
 
 #### CV
 
-You can see the [PDF](https://raw.githubusercontent.com/g-amador/Awesome-CV/Anastacia/examples/resume.pdf)
+You can see the [PDF](https://raw.githubusercontent.com/g-amador/Awesome-CV/Anastacia/examples/cv.pdf)
 
 | Page. 1 | Page. 2 |
 |:---:|:---:|
