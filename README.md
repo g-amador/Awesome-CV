@@ -22,7 +22,7 @@ You can see the [PDF](https://raw.githubusercontent.com/g-amador/Awesome-CV/mast
 |:---:|:---:|:---:|
 | [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-0.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-0.png) | [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-1.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-1.png) | [![Résumé](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-2.png)](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/resume-2.png) | 
 
-####Cover letter
+#### Cover letter
 
 You can see the [PDF](https://raw.githubusercontent.com/g-amador/Awesome-CV/master/examples/coverletter.pdf)
 
